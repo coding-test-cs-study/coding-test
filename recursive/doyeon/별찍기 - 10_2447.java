@@ -1,3 +1,6 @@
+// 참고
+// https://st-lab.tistory.com/95
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
