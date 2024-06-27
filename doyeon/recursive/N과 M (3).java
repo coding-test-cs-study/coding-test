@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
  
-public class App {
+public class N과M {
 	
 	public static int[] arr;
 	public static int N, M;
