@@ -5,7 +5,7 @@ import java.io.OutputStreamWriter;
 import java.io.IOException;
 import java.util.Stack;
 
-public class Main {
+public class 탑 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
