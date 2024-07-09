@@ -1,3 +1,5 @@
+// 탑 2493과 유사한 문제
+// 오큰수가 없는 수를 스택에 넣는 방식을 사용했다.
 import java.io.*;
 import java.util.Arrays;
 import java.util.Stack;
