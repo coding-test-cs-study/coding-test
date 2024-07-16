@@ -12,7 +12,6 @@ public class Main {
 
         backtracking("");
     }
-
     private static void backtracking(String str) {
         if (str.length() == N) {
             System.out.print(str);
@@ -24,7 +23,6 @@ public class Main {
             }
         }
     }
-
     private static boolean isSame(String str) {
         int len = str.length() / 2;
         for (int i = 1; i <= len; i++) {

@@ -28,7 +28,6 @@ class Main {
 
         System.out.println(ans);
     }
-
     private static void backtrack(int start, int cnt, StringBuilder currs, int aeiou, int other) {//len 4
         if (cnt == L) {
             if(aeiou != 0 && other > 1) {

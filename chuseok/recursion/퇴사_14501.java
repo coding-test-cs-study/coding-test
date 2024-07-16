@@ -18,7 +18,6 @@ public class Main {
                 dp[j] = Math.max(dp[j], dp[i] + p);
             }
         }
-
         System.out.print(dp[n]);
     }
 }
