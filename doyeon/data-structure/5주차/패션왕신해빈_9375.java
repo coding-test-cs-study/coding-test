@@ -15,12 +15,8 @@ public class main_9375 {
                 String name = st.nextToken();
                 String category = st.nextToken();
 
-                if(map.containsKey(category)){
-                    map.put(category,map.get(category)+1);
-                }
-                else{
-                    map.put(category,1);
-                }
+                
+                map.put(category,map.getOrDefault(category, 0) +1);
             }
             int answer = 1;
             for(int m:map.values()){
